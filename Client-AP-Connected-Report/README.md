@@ -24,4 +24,4 @@ python3 client-ap-report.py --endpoint https://https://domain.nyansa.com/api/v2/
 
 --csvoutput folder/FileName.csv
 
---validation false (only needed if the used endpoint uses a self signed certificate)
+--validation true/false (optional - only needed if the used endpoint uses a self signed certificate)

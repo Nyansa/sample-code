@@ -9,7 +9,7 @@ $ pip install -r requirements.txt
 ## Usage
 
 ```
-python3 ap-suspicious-rogue.py --endpoint https://https://domain.nyansa.com/api/v2/graphql --apikey <API_Key> --jsonoutput output.json --csvoutput output.csv --validation false
+python3 ap-suspicious-rogue.py --endpoint https://https://domain.nyansa.com/api/v2/graphql --apikey <API_Key> --jsonoutput output.json --csvoutput output.csv --validation true
 ```
 
 ## Arguments
@@ -23,4 +23,4 @@ python3 ap-suspicious-rogue.py --endpoint https://https://domain.nyansa.com/api/
 
 --csvoutput folder/FileName.csv
 
---validation false (only needed if the used endpoint uses a self signed certificate)
+--validation true/false (optional - only needed if the used endpoint uses a self signed certificate)

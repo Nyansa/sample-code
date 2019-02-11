@@ -23,4 +23,4 @@ python3 client-ssid-report.py --endpoint https://https://domain.nyansa.com/api/v
 
 --csvoutput folder/FileName.csv
 
---validation false (only needed if the used endpoint uses a self signed certificate)
+--validation true/false (optional - only needed if the used endpoint uses a self signed certificate)

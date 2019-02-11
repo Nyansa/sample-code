@@ -22,4 +22,4 @@ python3 ap-cochannel-neighbors.py --endpoint https://https://domain.nyansa.com/a
 
 --csvoutput folder/FileName.csv
 
---validation false (only needed if the used endpoint uses a self signed certificate)
+--validation true/false (optional - only needed if the used endpoint uses a self signed certificate)
