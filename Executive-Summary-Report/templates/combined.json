@@ -1,0 +1,12 @@
+
+{
+    "title": "Summary Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        "templates/applications.json",
+        "templates/devices.json",
+        "templates/accesspoints.json",
+        "templates/custom.json",
+        "templates/issues.json"
+    ]
+}

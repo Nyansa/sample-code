@@ -1,0 +1,228 @@
+{
+    "title": "Devices Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        {
+            "title": "DEVICES",
+            "description": "",
+            "link": "DEVICES",
+            "reports": [
+                {
+                    "id": "donutchart-horizontal-device-types",
+                    "config": {
+                        "title": "Device Types",
+                        "description": "",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": {
+                        "total": 0,
+                        "data": []
+                    }
+                },
+                {
+                    "id": "donutchart-horizontal-top5-os-distribution",
+                    "config": {
+                        "title": "Top 5 OS distribution",
+                        "description": "Top 5 ({{PERCENTAGE}}% of total)",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": {
+                        "total": 0,
+                        "data": []
+                    }
+                },
+                {
+                    "id": "barchart-horizontal-ios",
+                    "config": {
+                        "title": "iOS",
+                        "description": "Top 5 Versions",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-android",
+                    "config": {
+                        "title": "Android",
+                        "description": "Top 5 Versions",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-osx",
+                    "config": {
+                        "title": "OS X",
+                        "description": "Top 5 Versions",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-windows",
+                    "config": {
+                        "title": "Windows",
+                        "description": "Top 5 Versions",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "info-total-clients",
+                    "config": {
+                        "title": "Clients",
+                        "color": "#4E5268",
+                        "value": "<<VALUE>>",
+                        "count": "in use"
+                    }
+                },
+                {
+                    "id": "info-5-ghz-capable-clients",
+                    "config": {
+                        "title": "5 GHz capable",
+                        "color": "#4E5268",
+                        "value": "<<VALUE>> %",
+                        "count": "<<COUNT>> Clients"
+                    }
+                },
+                {
+                    "id": "info-dfs-capable-clients",
+                    "config": {
+                        "title": "DFS capable",
+                        "color": "#4E5268",
+                        "value": "<<VALUE>> %",
+                        "count": "<<COUNT>> Clients"
+                    }
+                }
+            ],
+            "layout": {
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-4",
+                                "id": "info-total-clients"
+                            },
+                            {
+                                "width": "xl-4",
+                                "id": "info-5-ghz-capable-clients"
+                            },
+                            {
+                                "width": "xl-4",
+                                "id": "info-dfs-capable-clients"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "donutchart-horizontal-device-types"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "donutchart-horizontal-top5-os-distribution"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-ios"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-android"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-osx"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-windows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

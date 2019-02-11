@@ -1,0 +1,49 @@
+{
+    "title": "Summary Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        {
+            "title": "ISSUES",
+            "description": "",
+            "link": "ISSUES",
+            "reports": [
+                {
+                    "id": "donutchart-horizontal-client-device-issues",
+                    "config": {
+                        "title": "Client Device Issues",
+                        "description": "",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": {
+                        "total": 0,
+                        "data": []
+                    }
+                }
+            ],
+            "layout": {
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "donutchart-horizontal-client-device-issues"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

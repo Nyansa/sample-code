@@ -1,0 +1,167 @@
+{
+    "title": "Access Points Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        {
+            "title": "ACCESS POINTS",
+            "description": "",
+            "link": "ACCESSPOINTS",
+            "reports": [
+                {
+                    "id": "barchart-horizontal-top10-apmodels",
+                    "config": {
+                        "title": "Most used APs",
+                        "description": "Total Numbers",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "donutchart-vertical-ap-capabilities",
+                    "config": {
+                        "title": "AP Capabilities",
+                        "description": "Top 5 ({{PERCENTAGE}}% of total)",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": {
+                        "total": 0,
+                        "data": []
+                    }
+                },
+                {
+                    "id": "barchart-horizontal-top10-worst-aps-wifi",
+                    "config": {
+                        "title": "Worst performing APs",
+                        "description": "Client Wi-Fi performance",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-worst-aps-web",
+                    "config": {
+                        "title": "Worst performing APs",
+                        "description": "Client Web performance",
+                        "units": "%",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "info-mu-mimo-capable-aps",
+                    "config": {
+                        "title": "MU-MIMO capable",
+                        "color": "#4E5268",
+                        "value": "<<VALUE>> %",
+                        "count": "<<COUNT>> APs"
+                    }
+                },
+                {
+                    "id": "info-total-aps",
+                    "config": {
+                        "title": "Access Points",
+                        "color": "#4E5268",
+                        "value": "<<VALUE>>",
+                        "count": "in use"
+                    }
+                }
+            ],
+            "layout": {
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-apmodels"
+                            },
+                            {
+                                "width": "xl-3",
+                                "id": "donutchart-vertical-ap-capabilities"
+                            },
+                            {
+                                "width": "xl-3",
+                                "rows": [
+                                    {
+                                        "cols": [
+                                            {
+                                                "width": "xl-12",
+                                                "id": "info-total-aps"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "cols": [
+                                            {
+                                                "width": "xl-12",
+                                                "id": "info-mu-mimo-capable-aps"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-worst-aps-wifi"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-worst-aps-web"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

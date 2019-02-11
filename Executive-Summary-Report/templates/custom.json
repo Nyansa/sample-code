@@ -1,0 +1,179 @@
+{
+    "title": "Custom Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        {
+            "title": "CUSTOM GROUP PERFORMANCE",
+            "description": "",
+            "link": "CUSTOM",
+            "reports": [
+                {
+                    "id": "barchart-horizontal-top10-custom-wifi",
+                    "config": {
+                        "title": "Wi-Fi",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-custom-web",
+                    "config": {
+                        "title": "Web",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-custom-dns",
+                    "config": {
+                        "title": "DNS",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-custom-dhcp",
+                    "config": {
+                        "title": "DHCP",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-custom-radius",
+                    "config": {
+                        "title": "Radius",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top10-custom-apps",
+                    "config": {
+                        "title": "Applications",
+                        "description": "",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                }
+            ],
+            "layout": {
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-wifi"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-web"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-dns"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-dhcp"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-radius"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top10-custom-apps"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

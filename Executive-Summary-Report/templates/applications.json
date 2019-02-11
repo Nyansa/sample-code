@@ -1,0 +1,100 @@
+{
+    "title": "Applications Report",
+    "description": "Last 2 weeks",
+    "sections": [
+        {
+            "title": "APPLICATIONS",
+            "description": "",
+            "link": "APPLICATIONS",
+            "reports": [
+                {
+                    "id": "barchart-vertical-application-performance",
+                    "config": {
+                        "title": "Application performance",
+                        "description": "% of problems over total application usage",
+                        "units": "%",
+                        "colors": [
+                            "#E3E6F5",
+                            "#C7C9DA",
+                            "#8689A1",
+                            "#676B8C",
+                            "#4E5268",
+                            "#E3E6F5",
+                            "#C7C9DA",
+                            "#8689A1",
+                            "#676B8C",
+                            "#4E5268"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top-5-applications-traffic",
+                    "config": {
+                        "title": "Top 5 applications",
+                        "description": "24h traffic",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                },
+                {
+                    "id": "barchart-horizontal-top-5-applications-users",
+                    "config": {
+                        "title": "Top 5 applications",
+                        "description": "24h users",
+                        "units": "",
+                        "colors": [
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5",
+                            "#4E5268",
+                            "#676B8C",
+                            "#8689A1",
+                            "#C7C9DA",
+                            "#E3E6F5"
+                        ]
+                    },
+                    "data": []
+                }
+            ],
+            "layout": {
+                "rows": [
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-12",
+                                "id": "barchart-vertical-application-performance"
+                            }
+                        ]
+                    },
+                    {
+                        "cols": [
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top-5-applications-traffic"
+                            },
+                            {
+                                "width": "xl-6",
+                                "id": "barchart-horizontal-top-5-applications-users"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

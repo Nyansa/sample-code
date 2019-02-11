@@ -1,0 +1,608 @@
+[
+    {
+        "apModel": "Aruba AP-105",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 105",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-104",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 104",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-114",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba AP 114",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-115",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba AP 115",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-124",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 124",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-125",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 125",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-125abg",
+        "capabilities": "11abg",
+        "apName": "Aruba AP 125",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-134",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba AP 134",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-135",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba AP 135",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-175AC",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 175",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-175P",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 175P",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-205",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 205",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-205H",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 205H",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-214",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba AP214",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-215",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 215",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-224",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 224",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-225",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 225",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-228",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 228",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-274",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 274",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-275",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 275",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-277",
+        "capabilities": "11ac 3 streams",
+        "apName": "Aruba AP 277",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-324",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Aruba AP 324",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-325",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Aruba AP 325",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-335",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Aruba AP 335",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "aruba ap-61",
+        "capabilities": "11a/g",
+        "apName": "Aruba AP61",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-65",
+        "capabilities": "11a/g",
+        "apName": "Aruba AP65",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-70",
+        "capabilities": "11a/g",
+        "apName": "Aruba AP70",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-85",
+        "capabilities": "11a/g",
+        "apName": "Aruba AP85",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-93H",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 93H",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-109",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba RAP 109",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-155",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba RAP 155",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-155P",
+        "capabilities": "11n 3 streams",
+        "apName": "Aruba RAP 155P",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "aruba ap-rap-2wg",
+        "capabilities": "11bg",
+        "apName": "Aruba RAP 2",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-3WN",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba RAP 3",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-3WNP",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba RAP 3",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "aruba ap-rap-5",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba RAP 5",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-RAP-5WN",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba RAP 5",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP3702I-UXK9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP3802I-B-K9",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Cisco 3802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP1532E-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 1532E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP1532I-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 1532I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP1552E-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 1552E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP1602I-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 1602I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2602E-A-K9",
+        "capabilities": "11n 3 streams",
+        "apName": "Cisco Aironet 2602E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2602I-A-K9",
+        "capabilities": "11n 3 streams",
+        "apName": "Cisco Aironet 2602I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2702E-A-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 2702E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2702I-A-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 2702I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2702I-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco 2702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3501I-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco 3501",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3502E-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 3502E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3502I-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 3502I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-cap3502p-a-k9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 3502P",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3602E-A-K9",
+        "capabilities": "11n 3 streams",
+        "apName": "Cisco Aironet 3602E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3602I-A-K9",
+        "capabilities": "11n 3 streams",
+        "apName": "Cisco Aironet 3602I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-cap3602p-a-k9",
+        "capabilities": "11n 3 streams",
+        "apName": "Cisco 3602",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702E-A-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702E",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702E-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702I-A-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702I-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702I",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702P-A-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP702W-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 700W",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP702W-B-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco 700W",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-LAP1131AG-A-K9",
+        "capabilities": "11ag",
+        "apName": "Cisco Aironet 1131AG",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-lap1131g-a-k9",
+        "capabilities": "11g",
+        "apName": "Cisco Aironet 1131G",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-LAP1142N-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 1142N",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-LAP1242AG-A-K9",
+        "capabilities": "11a/g",
+        "apName": "Cisco Aironet 1242AG",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-LAP1252AG-A-K9",
+        "capabilities": "11a/g",
+        "apName": "Cisco Aironet 1252AG",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-lap1252g-a-k9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco 1252",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-LAP1262N-A-K9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco 1262",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-oeap602i-a-k9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 6021",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-ap801gn-a-k9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco AP 801GN",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-ap802gn-a-k9",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco AP 802GN",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "ruckus ap-h500",
+        "capabilities": "11ac 2 streams",
+        "apName": "Ruckus ZoneFlex H500",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": "ruckus ap-r300",
+        "capabilities": "11n 2 streams",
+        "apName": "Ruckus ZoneFlex R300",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": "ruckus ap-r500",
+        "capabilities": "11ac 2 streams",
+        "apName": "Ruckus ZoneFlex R500",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": "ruckus ap-r710",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Ruckus ZoneFlex R710",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": "ruckus ap-zf7055",
+        "capabilities": "11n 2 streams",
+        "apName": "Ruckus ZoneFlex 7055",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": "ruckus ap-zf7372",
+        "capabilities": "11n 2 streams",
+        "apName": "Ruckus ZoneFlex 7372",
+        "Vendor": "Ruckus"
+    },
+    {
+        "apModel": " cisco ap-air-ap2802i-b-k9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 2802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Aruba AP-315",
+        "capabilities": "11ac 4 streams MU-MIMO",
+        "apName": "Aruba AP 315",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP1810W-B-K9",
+        "capabilities": "11ac 2 streams",
+        "apName": "Cisco Aironet 1810",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702I-Z-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP3802E-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": " aruba ap-303h",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 303H",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP1852I-B-K9",
+        "capabilities": "11ac 3 streams MU-MIMO",
+        "apName": "Cisco Aironet 1852",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3602I-N-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3602",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3602I-Z-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3602",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702I-E-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Aruba AP-305",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 305",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-OAW-AP105",
+        "capabilities": "11n 2 streams",
+        "apName": "Aruba AP 105",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP3802P-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP2702E-B-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 2702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-cap3502i-n-k9 ",
+        "capabilities": "11n 2 streams",
+        "apName": "Cisco Aironet 3502",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP3802I-Z-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-ap2802e-b-k",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 2802",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP1702I-A-K9",
+        "capabilities": "11ac 2 streams",
+        "apName": "Cisco Aironet 1702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Cisco AP-AIR-CAP3702E-Z-K9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 3702",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "Aruba AP-367",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 367",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Aruba AP-365",
+        "capabilities": "11ac 2 streams",
+        "apName": "Aruba AP 365",
+        "Vendor": "Aruba"
+    },
+    {
+        "apModel": "Cisco AP-AIR-AP1815W-B-K9",
+        "capabilities": "11ac 2 streams",
+        "apName": "Cisco Aironet 1815",
+        "Vendor": "Cisco"
+    },
+    {
+        "apModel": "cisco ap-air-ap1572eac-b-k9",
+        "capabilities": "11ac 3 streams",
+        "apName": "Cisco Aironet 1572",
+        "Vendor": "Cisco"
+    }
+]
