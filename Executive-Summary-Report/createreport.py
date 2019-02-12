@@ -3,7 +3,7 @@ from utils.helper import *
 
 
 # Usage
-# python createreport.py --endpoint https://https://domain.nyansa.com/api/v2/graphql --apikey PutApiKeyHere --report [devices|applications|accesspoints|issues|custom|combined] --outputfile output/FileName.html
+# python3 createreport.py --endpoint https://domain.nyansa.com/api/v2/graphql --apikey PutApiKeyHere --report [devices|applications|accesspoints|issues|custom|combined] --outputfile output/FileName.html --company Name  
 
 # if in OnPrem please disable SSL-Validation with:
 # --validation false (only if on onprem)
@@ -12,7 +12,6 @@ from utils.helper import *
 # -------------------------------------------------------------
 # Start
 # -------------------------------------------------------------
-Company_Beautifier = json.loads(load_textfile("data/company_beautifier.json"))
 Company = {"name": ""}
 def start(argv):
     try:
@@ -21,14 +20,15 @@ def start(argv):
         outputfile = ''
         report = ''
         validation = True
+        company = ''
         try:
             if (argv == []):
-                print('createreport.py -e <endpoint> -a <apikey> -r <report> -o <outputfile>')
+                print('createreport.py -e <endpoint> -a <apikey> -r <report> -o <outputfile> -c <company>')
                 sys.exit(2)
 
-            opts, args = getopt.getopt(argv,"he:a:r:o:v:",["endpoint=","apikey=","report=","outputfile=","validation="])
+            opts, args = getopt.getopt(argv,"he:a:r:o:v:c:",["endpoint=","apikey=","report=","outputfile=","validation=", "company="])
         except getopt.GetoptError:
-            print('createreport.py -e <endpoint> -a <apikey> -r <report> -o <outputfile>')
+            print('createreport.py -e <endpoint> -a <apikey> -r <report> -o <outputfile> -c <company>')
             sys.exit(2)
         for opt, arg in opts:
             if opt in ("-r", "--report"):
@@ -39,16 +39,13 @@ def start(argv):
                 endpoint = arg
             elif opt in ("-a", "--apikey"):
                 apikey = arg
+            elif opt in ("-c", "--company"):
+                company = arg
             elif opt in ("-v", "--validation"):
                 if (arg == "0" or arg == "False" or arg == "false"):
                     requests.packages.urllib3.disable_warnings()
                     validation = False
    
-        # parse company name
-        company = endpoint.replace("https://", "").replace(".nyansa.com/api/v2/graphql", "")
-        company = endpoint.replace("https://", "").replace("/api/v2/graphql", "")
-        if (company in Company_Beautifier):
-            company = Company_Beautifier[company]
         Company["name"] = company
 
         # create reports
